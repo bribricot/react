@@ -17,6 +17,15 @@ let app = (
 	<img src={url} alt="Me">
 	)
 
+//Renders the Functionnal component with JSX markup.
+let element = <App />
+
+//Functionnal component
+const App = () => {
+	const name = "Sarah"
+	return (<h1>Hello, {name}</h1>)
+}
+
 ReactDOM.render(
 	app, document.getElementById("root")
 	)
